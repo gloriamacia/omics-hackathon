@@ -1,3 +1,0 @@
-sample,fastq_s3
-S1,s3://my-input-bucket/data/S1.fastq.gz
-S2,s3://my-input-bucket/data/S2.fastq.gz

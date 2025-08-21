@@ -1,5 +1,5 @@
 # -------- FastqWiper + gzrecover (amd64) --------
-FROM python:3.11-slim
+FROM --platform=linux/amd64 python:3.11-slim
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
@@ -19,5 +19,3 @@ RUN git clone https://github.com/arenn/gzrt.git /tmp/gzrt && \
 RUN pip install --no-cache-dir fastqwiper
 
 WORKDIR /work
-# Let commands you pass at runtime be executed by bash -lc (useful for debugging)
-ENTRYPOINT ["/usr/bin/env", "bash", "-lc"]
