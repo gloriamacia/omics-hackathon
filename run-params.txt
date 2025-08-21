@@ -1,0 +1,7 @@
+{
+  "input": "s3://healthomics-hackathon-sanofi/sample_R1.fastq.gz",
+  "container": "913524948358.dkr.ecr.us-east-1.amazonaws.com/fastqwiper:latest"
+}
+
+
+

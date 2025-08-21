@@ -1,0 +1,14 @@
+nextflow.enable.dsl=2
+
+params {
+   input = null
+   container = null 
+
+}
+
+
+process {
+    cpus = 1
+    Memory = '1 GB'
+    
+}
